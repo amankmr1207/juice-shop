@@ -1,7 +1,9 @@
 name: Semgrep
 
 on:
-  pull_request: {}
+  pull_request:
+    branches:
+     - main
 
 jobs:
   semgrep:
